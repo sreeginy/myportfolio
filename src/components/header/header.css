@@ -49,6 +49,10 @@
     color: var(--title-color-dark);
 }
 
+.nav__link:hover {
+    color: var(--tittle-color-dark);
+}
+
 /* Break points */
 
 @media screen and (max-width: 768px) {
@@ -63,7 +67,7 @@
 
     .nav__menu {
         position: fixed;
-        bottom: 0;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -73,16 +77,61 @@
         transition: .3s;
     }
 
+    /* Show menu */
+    .show-menu {
+        bottom: 0;
+    }
+
     .nav__list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 
+    .nav__icon {
+        font-size: 1.2rem;
+    }
+
+    .nav__close {
+        position: absolute;
+        right: 1.3rem;
+        bottom: 5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--title-color);
+    }
+
+    .nav__close:hover {
+        color: var(--title-color-dark);
+    }
+
+    .nav__toggle {
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .nav__close {
+        color: var(--title-color-dark);
+    }
+
     .nav__icon,
     .nav__close,
     .nav__toggle {
         display: block;
+    }
+
+}
+
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .nav__menu {
+        padding: 2rem 0.25rem 4rem;
+    }
+
+    .nav__list {
+        column-gap: 0;
     }
 
 }

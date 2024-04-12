@@ -1,3 +1,8 @@
+.section__title {
+    padding-top: 9%;
+
+}
+
 .skills__container {
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;

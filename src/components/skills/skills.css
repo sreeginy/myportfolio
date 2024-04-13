@@ -56,20 +56,19 @@
     font-size: 12px;
 }
 
-
 /* Breakpoints */
 @media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem;
     }
-  }
+}
   
-  @media screen and (max-width: 768px) {
-
-  }
+@media screen and (max-width: 768px) {
+    /* Add styles here if necessary */
+}
   
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .skills__container {
         grid-template-columns: 1fr;
     }
@@ -77,10 +76,10 @@
     .skills__content {
         padding: 1.5rem;
     }
-  }
+}
   
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+/* For small devices */
+@media screen and (max-width: 350px) {
     .skills__box {
         column-gap: 1.25rem;
     }
@@ -88,7 +87,7 @@
     .skills__name {
         font-size: var(--small-font-size);
     }
-    
-  } 
+}
+
 
 

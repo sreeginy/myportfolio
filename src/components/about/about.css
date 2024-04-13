@@ -50,7 +50,7 @@
     border-radius: 0.75rem;
 }
 
-    /* Breakpoints */
+/* Breakpoints */
 @media screen and (max-width: 992px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -80,22 +80,19 @@
     }
 }
 
-  
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(3 1fr);
+        grid-template-columns: repeat(3, 1fr); /* corrected syntax */
     }
 
     .about__description {
         padding: 0;
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+}
 
+/* For small devices */
+@media screen and (max-width: 350px) {
     .about__info {
-        grid-template-columns: repeat(2 1fr);
+        grid-template-columns: repeat(2, 1fr); /* corrected syntax */
     }
-
-  }
+}

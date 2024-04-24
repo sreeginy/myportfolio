@@ -37,8 +37,18 @@
     font-size: var(--small-font-size);
 }
 
+.contact__card-title{
+    font-weight: var(--font-medium);
+}
+
+.contact__card-data{
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
 
 
 .contact__form {
     width: 360px;
 }
+

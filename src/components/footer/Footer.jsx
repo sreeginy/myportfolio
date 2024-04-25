@@ -1,4 +1,5 @@
 import React from 'react'
+import './footer.css' 
 
 const Footer = () => {
   return (
@@ -20,6 +21,24 @@ const Footer = () => {
                     <a href="#qualification" className="footer__link">Testimonials</a>
                 </li>
             </ul>
+
+            <div className="footer__social">
+
+            <a href="https://github.com/sreeginy" className="footer__social-link" target="_blank">
+                <i className="bx bxl-facebook"> </i>
+            </a>
+
+            <a href="" className="footer__social-link" target="_blank">
+                <i className="bx bxl-instagram"> </i>
+            </a>
+
+            <a href="" className="footer__social-link" target="_blank">
+                <i className="bx bxl-twitter"> </i>
+            </a>
+
+            </div>
+
+            <span className="footer__copy">&#169; Sreeginy. All rights reserved.</span>
         </div>
     </footer>
   )

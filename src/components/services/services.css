@@ -1,3 +1,7 @@
+.services__title {
+  padding-top: 6%;
+
+}
 .services__container {
     grid-template-columns: repeat(3, 270px);
     justify-content: center;

@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--container-color);
 }
 
 .nav {
@@ -52,6 +52,8 @@
 .nav__link:hover {
     color: var(--tittle-color-dark);
 }
+
+
 /* Break points */
 @media screen and (max-width: 768px) {
     .header {
@@ -65,19 +67,24 @@
 
     .nav__menu {
         position: fixed;
-        bottom: -100%;
+        bottom: -100%; 
         left: 0;
         width: 100%;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 2rem 1.5rem 2rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
-
+    
     /* Show menu */
     .show-menu {
         bottom: 0;
+    }
+
+    .nav__toggle {
+        font-size: 1.1rem;
+        cursor: pointer; 
     }
 
     .nav__list {
@@ -90,30 +97,35 @@
         font-size: 1.2rem;
     }
 
+    .nav__icon,
+    .nav__close,
+    .nav__toggle {
+        display: block;
+    }
+
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        bottom: 5rem;
+        bottom: .5rem;
         font-size: 1.5rem;
         cursor: pointer;
-        color: var(--title-color);
+        color: #000000;
+    }
+
+    .nav__toggle.close {
+        color: #000000; /* Change color as needed */
     }
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: #000000;
     }
 
-    .nav__toggle {
-        font-size: 1.1rem;
-        cursor: pointer;
-    }
 }
-
-/*  Change background header */
 
 .scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
+
 
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -123,5 +135,8 @@
 
     .nav__list {
         column-gap: 0;
+        
     }
+
 }
+

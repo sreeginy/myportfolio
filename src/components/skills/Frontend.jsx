@@ -37,19 +37,13 @@ const Frontend = () => {
 
             <div className="skills__box"> 
                 <div className="skills__group">
-                    <div className="skills__data">
-                    <i class='bx bxl-flutter' style={{ color:'#54c0f4', fontSize: '1.5rem' }}  ></i>
 
-                        <div>
-                            <h3 className="skills__name">Flutter</h3>
-                        </div>
-                </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-react' style={{ color:'#88dded', fontSize: '1.5rem' }} ></i>
+                <i class='bx bxl-react' style={{ color:'#37afe4', fontSize: '1.5rem' }} ></i>
 
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">React JS</h3>
                         </div>
                 </div>
 
@@ -57,10 +51,17 @@ const Frontend = () => {
                 <i class='bx bxl-bootstrap' style={{ color:' #59287a', fontSize: '1.5rem' }}  ></i>
 
                         <div>
-                            <h3 className="skills__name">Bootstrap</h3>
+                            <h3 className="skills__name">BOOTSTRAP </h3>
                         </div>
                 </div>
 
+                <div className="skills__data">
+                    <i class='bx bxl-flutter' style={{ color:'#54c0f4', fontSize: '1.5rem' }}  ></i>
+
+                        <div>
+                            <h3 className="skills__name">FLUTTER</h3>
+                        </div>
+                </div>
 
                 {/* <div className="skills__data">
                 <i class='bx bxl-angular' style={{ color:'#a6120d', fontSize: '1.5rem' }}  ></i>

@@ -1,79 +1,36 @@
 import React from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileCode } from '@fortawesome/free-regular-svg-icons';
+import { faJava } from '@fortawesome/free-brands-svg-icons';
+import { faAndroid } from '@fortawesome/free-brands-svg-icons';
 
 const Android = () => {
     return (
         <div className="skills__content">
-            <h3 className="h3 skills__title">Android Developer </h3>
+            <h3 className="h3 skills__title">Android Developer</h3>
 
-            <div className="skills__box"> 
+            <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
-                </div>
-
-                <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-                </div>
-
-                <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills__name">JavaScript</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-                </div>
-            </div>
-
-
-
-            <div className="skills__box"> 
-                <div className="skills__group">
+                        <FontAwesomeIcon icon={faFileCode} style={{ color: "#ed703c", fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1.5rem' }} />
+                        <h3 className="skills__name">XML</h3>
+                    </div>
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                    <FontAwesomeIcon icon={faJava} style={{ color: "#5382a1", fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1.5rem' }} />
+                        {/* <i className='bx bxl-java' style={{ color: '#5382a1', fontSize: '3rem', marginRight: '1rem' }}></i> */}
+                        <h3 className="skills__name">Java</h3>
+                    </div>
+                    <div className="skills__data">
+                    <FontAwesomeIcon icon={faAndroid} style={{ color: "#77c159", fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1rem' }} />
+                        {/* <i className='bx bxl-android' style={{ color: '#77c159', fontSize: '3rem', marginRight: '1rem' }}></i> */}
+                        <h3 className="skills__name">Android Studio</h3>
+                    </div>
 
-                        <div>
-                            <h3 className="skills__name">Git</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
+
                 </div>
-
-                <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills__name">React</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-                </div>
-
-                <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills__name">Bootstrap</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-                </div>
-
-            </div>
-            </div>
-
-
             </div>
         </div>
-    )
+    );
 }
 
-export default Android
+export default Android;

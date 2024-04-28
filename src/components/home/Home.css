@@ -30,7 +30,7 @@
 
 .home__title {
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: 0.75rem;
 }
 
 
@@ -61,7 +61,7 @@
 
 .home__description {
     max-width: 400px;
-    margin-bottom: var(--mb-3);
+    margin-bottom: 1.5rem;
 }
 
 .home__img {
@@ -133,7 +133,7 @@
     overflow: hidden;
     display: inline-block;
     vertical-align: bottom;
-   
+    margin-bottom: 1rem;
 }
 .highlight {
     color: #F08080;

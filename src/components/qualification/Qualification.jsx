@@ -15,7 +15,7 @@ const Qualification = () => {
     
         <section className="qualification section">
             <h2 className="section__title">Qualification</h2>
-            <span className="section__subtitle">My Personal journey</span>
+            <span className="section__subtitle">My education has been a journey of self-discovery and growth. <br />My educational & work experience are as follows.</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">

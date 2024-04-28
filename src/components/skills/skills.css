@@ -1,5 +1,5 @@
 .section__title {
-    padding-top: 12%;
+    padding-top: 10%;
 
 }
 
@@ -21,7 +21,7 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: 3rem;
 }
 
 .skills__box {
@@ -33,12 +33,12 @@
 .skills__group {
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .skills__data {
     display: flex;
-    column-gap: 0.5rem;
+    column-gap: 1rem;
 }
 
 .skills .bx-badge-check {
@@ -49,7 +49,7 @@
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    line-height: 18px;
+    line-height: 22px;
 }
 
 .skills__level {

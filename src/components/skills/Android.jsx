@@ -1,34 +1,37 @@
 import React from "react";
 
 
-const Frontend = () => {
+const Android = () => {
     return (
         <div className="skills__content">
-            <h3 className="h3 skills__title">Frontend Developer </h3>
+            <h3 className="h3 skills__title">Android Developer </h3>
 
             <div className="skills__box"> 
                 <div className="skills__group">
                     <div className="skills__data">
-                    <i className='bx bxl-html5' style={{ color: '#f06529', fontSize: '1.5rem' }}></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">HTML</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-css3' style= {{ color: '#264de4', fontSize: '1.5rem'}} ></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">CSS</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-javascript' style= {{ color: '#f0db4f', fontSize: '1.5rem'}}  ></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                 </div>
             </div>
@@ -38,37 +41,31 @@ const Frontend = () => {
             <div className="skills__box"> 
                 <div className="skills__group">
                     <div className="skills__data">
-                    <i class='bx bxl-flutter' style={{ color:'#54c0f4', fontSize: '1.5rem' }}  ></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills__name">Flutter</h3>
+                            <h3 className="skills__name">Git</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-react' style={{ color:'#88dded', fontSize: '1.5rem' }} ></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">React</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-bootstrap' style={{ color:' #59287a', fontSize: '1.5rem' }}  ></i>
+                        <i className="bx bx-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">Bootstrap</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                 </div>
-
-
-                {/* <div className="skills__data">
-                <i class='bx bxl-angular' style={{ color:'#a6120d', fontSize: '1.5rem' }}  ></i>
-
-                        <div>
-                            <h3 className="skills__name">Angular</h3>
-                        </div>
-                </div> */}
 
             </div>
             </div>
@@ -79,4 +76,4 @@ const Frontend = () => {
     )
 }
 
-export default Frontend
+export default Android

@@ -13,13 +13,14 @@ const About = () => {
             <div className="about__container container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
 
-                <div className="about__data">
-                    <Info />
+                <div className="about__data ">
 
-                    <p className="about__description"> FrontEnd developer, I create Mobile apps with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                    <p className="about__description"> FrontEnd developer, I create Mobile apps with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out. 
+                    I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset,
+                     I am ready to make a meaningful contribution and achieve great things.
                     </p>
 
-                    <a download="" href={CV} className="button button--flex">Download Resume  
+                    <a download="" href={CV} className="button contact__button ">Download Resume  
                     
                     <svg
                 class="button__icon"

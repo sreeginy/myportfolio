@@ -1,12 +1,11 @@
 .section__title {
-    padding-top: 3%;
+    padding-top: 0.1%;
 
 }
 
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    column-gap: 4rem;
 }
 
 .about__img {
@@ -48,7 +47,21 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
     border-radius: 0.75rem;
+    width: 100%; 
+    
 }
+
+.contact__button {
+    color: #fff;
+    font-size: var(--small-font-size);
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    column-gap: 0.25rem;
+    width: 50%; /* Set width to 50% */
+}
+
+
 
 /* Breakpoints */
 @media screen and (max-width: 992px) {

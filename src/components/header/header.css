@@ -46,11 +46,11 @@
 
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: #8B0000;
 }
 
 .nav__link:hover {
-    color: var(--tittle-color-dark);
+    color: #8B0000;
 }
 
 
@@ -70,7 +70,7 @@
         bottom: -100%; 
         left: 0;
         width: 100%;
-        background-color: var(--body-color);
+        background-color: #fff;
         padding: 2rem 1.5rem 2rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
@@ -113,7 +113,7 @@
     }
 
     .nav__toggle.close {
-        color: #000000; /* Change color as needed */
+        color: #000000; 
     }
 
     .nav__close:hover {

@@ -36,9 +36,9 @@ const Data = () => {
   <h1 className="home__title">
     Sreeginy <span>Ratnavathany</span>
   </h1>
-  <h3 className="typing-animation">
+  <h2 className="typing-animation">
     I am a <span className="highlight">{isTyping ? jobTitle : titles[titleIndex]}</span>
-  </h3>
+  </h2>
   <p className="home__description">
     I'm a creative Designer based in Sri Lanka, and I'm very passionate and dedicated to my work.
   </p>

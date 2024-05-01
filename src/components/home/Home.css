@@ -4,10 +4,9 @@
 
 }
 
-
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 4rem;
     column-gap: 2rem;
     align-items: center;
     margin-top: 5rem;
@@ -80,25 +79,25 @@
 }
 
 .button-container {
-    text-align: center; /* Center the button horizontally */
-    margin-top: 1.5rem; /* Adjust margin-top to push the button down */
-  }
-  
-  .button {
-    display: inline-block;
-    background-color: var(--tittle-color);
-    color: var(--container-color);
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    font-weight: var(--font-medium);
-  }
-  
-  /* Adjust the button icon position if necessary */
-  .button__icon {
-    vertical-align: middle;
-    margin-left: 0.5rem; /* Adjust the margin as needed */
-  }
-  
+  text-align:start; /* Center the button horizontally */
+  margin-top: 2rem; /* Adjust margin-top to push the button down */
+  margin-right: 15rem;
+}
+
+.button {
+  background-color: var(--tittle-color);
+  color: var(--container-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+/* Adjust the button icon position if necessary */
+.button__icon {
+  vertical-align: middle;
+  margin-left: 0.5rem; /* Adjust the margin as needed */
+}
+
   
   
   

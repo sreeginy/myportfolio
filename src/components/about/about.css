@@ -6,6 +6,7 @@
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-top: 3.7rem;
 }
 
 .about__img {
@@ -37,29 +38,51 @@
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+
 }
 
 .about__subtitle {
     font-size: var(--tiny-font-size);
 }
 
-.about__description {
+.button-container {
+    text-align: start; /* Center the button horizontally */
+    margin-top: 1rem; /* Adjust margin-top to push the button down */
+    margin-right: 15rem;
+  }
+  
+  .about__description {
     padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: 2rem;
     border-radius: 0.75rem;
-    width: 100%; 
-    
+    width: 95%; /* Description width remains fixed */
+    text-align: justify;
+  }
+
+  .about__subtitle {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-bottom: 1rem; /* Add spacing between subtitle and description */
+    color: var(--text-color); 
 }
 
-.contact__button {
-    color: #fff;
-    font-size: var(--small-font-size);
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    column-gap: 0.25rem;
-    width: 50%; /* Set width to 50% */
-}
+  
+  .button {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: var(--tittle-color);
+    color: var(--container-color);
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+    width: 95%; /* Button width set to match description */
+  }
+  
+
+
+ 
+  
+
+
 
 
 

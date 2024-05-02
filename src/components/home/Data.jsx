@@ -10,8 +10,8 @@ const Data = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
-      setIsTyping(true); // Start typing animation for the new title
-    }, 3000); // Change the title every 4 seconds
+      setIsTyping(true); 
+    }, 3000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -24,10 +24,10 @@ const Data = () => {
         setJobTitle(currentText);
         currentIndex++;
       } else {
-        setIsTyping(false); // Stop typing animation for the current title
+        setIsTyping(false); 
         clearInterval(typingInterval);
       }
-    }, 100); // Typing speed
+    }, 100); 
     return () => clearInterval(typingInterval);
   }, [titleIndex]);
 

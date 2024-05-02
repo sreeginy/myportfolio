@@ -8,19 +8,24 @@ const About = () => {
     return (
         <section className="about section" id="about">
             <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+            {/* <span className="section__subtitle">My Introduction</span> */}
 
             <div className="about__container container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
 
                 <div className="about__data ">
+                <h6 className="about__subtitle">Get to Know Me</h6>
+                    <p className="about__description">I'm a Mobile Developer and UI/UX Designer, with creating user-friendly mobile apps.
+                      I also have experience as a Frontend Developer.
+                      <br /> <br />
+                     I'm always ready for new challenges, passionate about learning, 
+                     and dedicated to delivering excellent results with a positive attitude and growth mindset, 
+                     ready to achieve great things!.
 
-                    <p className="about__description"> FrontEnd developer, I create Mobile apps with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out. 
-                    I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset,
-                     I am ready to make a meaningful contribution and achieve great things.
                     </p>
 
-                    <a download="" href={CV} className="button contact__button ">Download Resume  
+                    <div className="button-container">
+                    <a download="" href={CV} className="button button--flex">Download Resume  
                     
                     <svg
                 class="button__icon"
@@ -52,6 +57,7 @@ const About = () => {
 
                 </div>
 
+            </div>
             </div>
 
         </section>

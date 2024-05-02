@@ -1,7 +1,4 @@
-.section__title {
-    padding-top: 0.1%;
 
-}
 
 .about__container {
     grid-template-columns: repeat(2, 1fr);
@@ -46,8 +43,8 @@
 }
 
 .button-container {
-    text-align: start; /* Center the button horizontally */
-    margin-top: 1rem; /* Adjust margin-top to push the button down */
+    text-align: start;
+    margin-top: 2rem; 
     margin-right: 15rem;
   }
   
@@ -55,38 +52,31 @@
     padding: 0 4rem 0 0;
     margin-bottom: 2rem;
     border-radius: 0.75rem;
-    width: 95%; /* Description width remains fixed */
+    width: 95%; 
     text-align: justify;
   }
 
   .about__subtitle {
-    font-size: 1.2rem; /* Adjust font size as needed */
-    margin-bottom: 1rem; /* Add spacing between subtitle and description */
-    color: var(--text-color); 
+    font-size: 1rem; 
+    margin-bottom: 1rem; 
+    color: black; 
 }
 
   
   .button {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; 
+    align-items: center; 
     background-color: var(--tittle-color);
     color: var(--container-color);
     border-radius: 1rem;
     font-weight: var(--font-medium);
-    width: 95%; /* Button width set to match description */
+    width: 95%; 
   }
   
 
+/* -------------------------------------------  Breakpoints */
 
- 
-  
-
-
-
-
-
-/* Breakpoints */
 @media screen and (max-width: 992px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -118,7 +108,7 @@
 
 @media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(3, 1fr); /* corrected syntax */
+        grid-template-columns: repeat(3, 1fr); 
     }
 
     .about__description {
@@ -126,9 +116,9 @@
     }
 }
 
-/* For small devices */
+
 @media screen and (max-width: 350px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr); /* corrected syntax */
+        grid-template-columns: repeat(2, 1fr);
     }
 }

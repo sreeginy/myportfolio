@@ -35,12 +35,7 @@ export const projectsData = [
         category: "web",
     },
 
-    {
-        id: 5,
-        image: Work5,
-        title: 'Weather App',
-        category: "app",
-    },
+
 ];
 
 export const projectsNav = [

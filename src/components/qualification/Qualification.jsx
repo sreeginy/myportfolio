@@ -36,10 +36,11 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Design</h3>
+                                <h3 className="qualification__title">BSc(Hons) Computer Science  Software Engineering </h3>
                                 <span className="qualification__subtitle">Kingston University</span>
                                 <div className="qualification__calender">
-                                <i class='bx bx-calendar' > 2021 to present</i>
+                                <i class='bx bx-calendar' > Graduated in September 2023</i>
+                                {/* <span className="qualification__subtitle">September 2022 to September 2023</span> */}
                                  
                                 </div>
                             </div>
@@ -60,10 +61,11 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Unior Designer</h3>
-                                <span className="qualification__subtitle">Kingston University</span>
+                            <h3 className="qualification__title"> HND In Information Technology</h3>
+                                <span className="qualification__subtitle">Advanced Technological Institute - Jaffna</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2021 to Present</i>
+                                <i class='bx bx-calendar' > Graduated in February 2022</i>
+                                {/* <span className="qualification__subtitle">May 2018 to February 2022</span> */}
                                 </div>
                             </div>
 
@@ -74,38 +76,34 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Mobile Developer</h3>
-                                <span className="qualification__subtitle">Kingston University</span>
+                            <h3 className="qualification__title"> G.C.E Advanced Level</h3>
+                                <span className="qualification__subtitle">Thondaimanaru V.M.V - Jaffna</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2021 to Present</i>
+                                <i class='bx bx-calendar' > Graduated in December 2017</i>
+                                {/* <span className="qualification__subtitle">January 2004 to December 2017</span> */}
                                 </div>
                             </div>
 
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
+                                
                             </div>
                         </div>
-
 
                         <div className="qualification__data">
                             <div></div>
-
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
+                              
                             </div>
+                        </div>
 
-                            <div>
-                                <h3 className="qualification__title">UI/UX Designer</h3>
-                                <span className="qualification__subtitle">Kingston University</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2018 to 2022</i>
-                                </div>
-                            </div>
+
+                       
 
                            
-                        </div>
+                        
 
                     </div>
 
@@ -122,10 +120,12 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Product Designer</h3>
-                                <span className="qualification__subtitle">Microsoft</span>
+                            <h3 className="qualification__title">Creative Media Coordinator | <br /> Part Time </h3>
+                            {/*  Digital Media Coordinator  | Brand Ambassador */}
+                                <span className="qualification__subtitle"> RK Architecture Designers & Engineers </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2021 to Present</i>
+                                <i class='bx bx-calendar'> November 2022 <br />to Present </i>
+                                {/* <span className="qualification__period"> November 2022 to Present </span> */}
                                 </div>
                             </div>
 
@@ -145,45 +145,24 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">PHP Developer</h3>
-                                <span className="qualification__subtitle">My Dynamica</span>
+                            <h3 className="qualification__title"> Software Developer Internship </h3>
+                                <span className="qualification__subtitle"> My Dynamica (Pvt)Ltd  - Jaffna</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2021 to Present</i>
+                                <i class='bx bx-calendar'> November 2020 <br />to May 2021 </i>
+                                {/* <span className="qualification__period"> November 2020 to May 2021 </span> */}
                                 </div>
                             </div>
 
-                           
                         </div>
 
-
-
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Backend Developer</h3>
-                                <span className="qualification__subtitle">Apple Inc</span>
-                                <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2021 to Present</i>
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
 
 
                         <div className="qualification__data">
                             <div></div>
-
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
+                              
                             </div>
-
-
-
-                           
                         </div>
 
                     </div>

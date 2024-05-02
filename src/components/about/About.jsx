@@ -14,7 +14,7 @@ const About = () => {
                 <img src={AboutImg} alt="" className="about__img" />
 
                 <div className="about__data ">
-                <h6 className="about__subtitle">Get to Know Me</h6>
+                <p className="about__subtitle">Get to Know Me..! </p>
                     <p className="about__description">I'm a Mobile Developer and UI/UX Designer, with creating user-friendly mobile apps.
                       I also have experience as a Frontend Developer.
                       <br /> <br />

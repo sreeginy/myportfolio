@@ -17,10 +17,10 @@
 }
 
 .qualification__button:hover {
-    color: #00008B;
+    color: #e42020;
 }
 .qualification__active {
-    color: #00008B;
+    color: #e42020;
 }
 
 
@@ -48,6 +48,7 @@
     column-gap: 1.5rem;
 }
 
+
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -57,10 +58,16 @@
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: #00008B;
+    margin-top: 0.3rem;
 }
 
 .qualification__calender {
     font-size: var(--small-font-size);
+}
+
+.qualification__period {
+    font-size: 13.4px;
 }
 
 .qualification__rounder {

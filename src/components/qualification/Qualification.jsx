@@ -135,6 +135,29 @@ const Qualification = () => {
                             </div>
                         </div>
 
+{/* 
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                            <h3 className="qualification__title"> Android App Developer</h3>
+                                <span className="qualification__subtitle"> Tech-A-Intern</span>
+                                <div className="qualification__calender">
+                                <i class='bx bx-calendar'> December 2023 <br />to January 2024 </i>
+                                {/* <span className="qualification__period"> November 2020 to May 2021 </span> */}
+                                {/* </div>
+                            </div>
+
+
+                        </div> */}
+
+
+
 
                         <div className="qualification__data">
                             <div></div>

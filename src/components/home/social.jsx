@@ -23,8 +23,8 @@ const Social = () => {
             <CIcon icon={cibDribbble} />
             </a>
 
-            <a href="" className="home__social-icon" target="_blank">
-            <CIcon icon={cibBehance} />
+            <a href="https://www.behance.net/sreeginy" className="home__social-icon" target="_blank">
+           <i>  <CIcon icon={cibBehance} />  </i>
             </a>
 
             <a href="" className="home__social-icon" target="_blank">

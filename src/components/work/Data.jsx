@@ -12,6 +12,7 @@ export const projectsData = [
         image: Work1,
         title: 'Weather App',
         category: "app",
+        description: "This is a weather application that provides real-time weather updates for various locations. It includes features such as temperature, humidity, wind speed, and forecasts.",
     },
 
     {

@@ -10,7 +10,9 @@ const WorkItems = ({ item }) => {
   return (
     <div>
       <div className="work__card">
+      <a href={item.imageLink}>
         <img src={item.image} alt="" className="work__img" />
+      </a>  
         <h3 className="work__title">{item.title}</h3>
         <span className="work__button" onClick={toggleTab}>
           Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>

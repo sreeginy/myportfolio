@@ -1,13 +1,22 @@
-import Work1 from "../../assets/weatherApp2.png"
+import Work1 from "../../assets/weatherApp02.png"
 import Work2 from "../../assets/puzzleApp.png"
-import Work3 from "../../assets/work3.jpg"
-import Work4 from "../../assets/admin.png"
+import Work3 from "../../assets/figmaDesign.png"
+import Work4 from "../../assets/studentsWebpage.png"
 import Work5 from "../../assets/toDo.png"
 import work6 from "../../assets/AppContact.png"
-
+import Work7 from "../../assets/constructionWebpage.png"
+import Work8 from "../../assets/constructionAppUI.png"
 
 
 export const projectsData = [ 
+
+    {
+        id: 8,
+        image: Work8,
+        title: 'Building Construction App',
+        category: "app",
+    },
+
     {
         id: 1,
         image: Work1,
@@ -18,25 +27,27 @@ export const projectsData = [
     },
 
     {
+        id: 7,
+        image: Work7,
+        title: 'Building Construction System',
+        category: "web",
+    },
+
+    {
+        id: 4,
+        image: Work4,
+        title: 'Student Management System',
+        category: "web",
+    },
+
+    {
         id: 5,
         image: Work5,
         title: 'ToDo App',
         category: "app",
     },
 
-    {
-        id: 3,
-        image: Work3,
-        title: 'Brand Design',
-        category: "design",
-    },
 
-    {
-        id: 4,
-        image: Work4,
-        title: 'Admin Panel',
-        category: "web",
-    },
 
     {
         id: 6,
@@ -53,7 +64,12 @@ export const projectsData = [
         description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
     },
 
-
+    {
+        id: 3,
+        image: Work3,
+        title: 'ToDo App Design |      Figma ',
+        category: "design",
+    },
 
 
 

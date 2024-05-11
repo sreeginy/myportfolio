@@ -32,6 +32,31 @@ const Contact = () => {
             <h2 className="section__title">Contact</h2>
             <span className="section__subtitle">Feel free to reach out to me for any questions or opportunities!</span>
 
+            <div className="contacts__data" >
+
+            <i class='bx bx-map' style={{ fontSize: '1.5rem' }} ></i>
+
+            <div>
+                 <h3 className="contact__name">Location: Selvasannithy temple, Thondaimanaru, Jaffna.</h3>
+            </div>
+            </div>
+
+            <div className="contacts__data" >
+            <i class='bx bx-envelope' style={{ fontSize: '1.3rem' }}> </i> 
+
+            <div>
+                 <h3 className="contact__name">Email: sreeginy98@gmail.com</h3>
+            </div>
+            </div>
+
+            <div className="contacts__data" >
+             <i class='bx bx-phone-call' style={{ fontSize: '1.3rem' }}> </i> 
+
+            <div>
+                 <h3 className="contact__name">Call: +94772949603</h3>
+            </div>
+            </div>
+
 
             <div className="contact__container container">
                 <div className="contact__content">
@@ -42,7 +67,7 @@ const Contact = () => {
                                 type="text"
                                 name="name"
                                 className="contact__form-input"
-                                placeholder="Insert your name"/>
+                                placeholder="Your Name"/>
                         </div>
 
                         <div className="contact__form-div">
@@ -51,7 +76,7 @@ const Contact = () => {
                                 type="email"
                                 name="email"
                                 className="contact__form-input"
-                                placeholder="Insert your email"/>
+                                placeholder="Your Email"/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">

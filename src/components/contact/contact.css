@@ -1,13 +1,38 @@
 .section__subtitle{
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
+
+.contacts__data {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally */
+    align-items:flex-start; /* Aligns items vertically */
+}
+
+.contact__social-link {
+    background-color: var(--tittle-color);
+    color: var(--container-color);
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    margin-right: 10px; /* Adds some space between icon and text */
+}
+
+.contact__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 22px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
 
 .contact__container {
     display: flex;
     justify-content: center;
     align-items: center; /* Center vertically */
     height: 100%;
+    margin-top: 15px;
 }
 
 .contact__content {
@@ -152,6 +177,16 @@
 
     .contact__form {
         margin: 0 auto;
+    }
+
+    .contacts__data {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .contact__social-link {
+        margin-bottom: 10px; 
     }
   }
   

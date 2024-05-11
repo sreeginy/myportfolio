@@ -31,8 +31,8 @@ const Social = () => {
             <CIcon icon={cibNotion} style={{ color: '#FF0000' }} />
             </a>
 
-            <a href="" className="home__social-icon" target="_blank">
-            <CIcon icon={cibYoutube}  style={{ color:'#ff0000' }} />
+            <a href="http://www.youtube.com/@SreeginyVathany" className="home__social-icon" target="_blank">
+            <CIcon icon={cibYoutube}  style={{ fontSize: '2rem', color: '#ff0000', transition: 'color 0.3s ease' }} />
             </a>
 
          </div>

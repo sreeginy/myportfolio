@@ -109,6 +109,10 @@
         margin: 0 var(--mb-0-75);
     }
 
+    .break-mobile {
+        display: none;
+      }
+
    
 }
 
@@ -118,5 +122,9 @@
     .qualification__data {
         gap: 0.5rem;
     }
+
+    .break-mobile {
+        display: none;
+      }
 }
 

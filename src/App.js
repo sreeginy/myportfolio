@@ -25,7 +25,7 @@ function App() {
     <Skills />
 
  
-  {/*  <Services /> */}
+   <Services />
     
     <Qualification />
     <Work />

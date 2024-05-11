@@ -30,32 +30,27 @@ const Contact = () => {
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Contact</h2>
-            <span className="section__subtitle">Feel free to reach out to me for any questions or opportunities!</span>
+            <span className="section__subtitle">Feel free to reach out to me for any questions, inquiries, or opportunities!</span>
 
             <div className="contacts__data" >
 
-            <i class='bx bx-map' style={{ fontSize: '1.5rem' }} ></i>
+            <i class='bx bx-map' style={{ fontSize: '1.5rem', color:'#e42020' }} ></i>
 
             <div>
-                 <h3 className="contact__name">Location: Selvasannithy temple, Thondaimanaru, Jaffna.</h3>
-            </div>
-            </div>
-
-            <div className="contacts__data" >
-            <i class='bx bx-envelope' style={{ fontSize: '1.3rem' }}> </i> 
-
-            <div>
-                 <h3 className="contact__name">Email: sreeginy98@gmail.com</h3>
+                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Location: </span> Selvasannithy temple, Thondaimanaru, Jaffna.</h3>
             </div>
             </div>
 
             <div className="contacts__data" >
-             <i class='bx bx-phone-call' style={{ fontSize: '1.3rem' }}> </i> 
+            <i class='bx bx-envelope' style={{ fontSize: '1.3rem', color: '#e42020'}}> </i> 
 
             <div>
-                 <h3 className="contact__name">Call: +94772949603</h3>
+                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Email: </span> sreeginy98@gmail.com&nbsp;  &nbsp; </h3> 
             </div>
+         <i class='bx bx-phone-call' style={{ fontSize: '1.3rem', color: '#e42020' }}> </i> 
+            <h3 className="contact__name"><span style={{ color: '#808080'}}> Call: </span> +94772949603</h3>
             </div>
+
 
 
             <div className="contact__container container">

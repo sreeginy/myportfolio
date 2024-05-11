@@ -22,8 +22,9 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 22px;
-    margin-top: 2px;
+    margin-top: 1px;
     margin-left: 10px;
+    margin-bottom: 0.6rem;
 }
 
 
@@ -32,7 +33,8 @@
     justify-content: center;
     align-items: center; /* Center vertically */
     height: 100%;
-    margin-top: 15px;
+    margin-top: 18px;
+
 }
 
 .contact__content {
@@ -89,21 +91,21 @@
 .contact__button {
     color: #fff;
     font-size: var(--small-font-size);
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     column-gap: 0.25rem;
-    width: 100%; /* Make button width 100% to match form width */
-    margin: 0 auto; /* Center horizontally */
-    margin-bottom: 1.5rem; /* Adjust margin as needed */
+    width: 100%; 
+    margin: 0 auto; 
+    margin-bottom: 1.5rem; 
 }
 
 .button--flex {
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    width: fit-content; /* Adjust width to fit content */
-    margin: 0 auto; /* Center horizontally */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: fit-content;
+    margin: 0 auto;
     margin-bottom: 1.5rem;
 }
 

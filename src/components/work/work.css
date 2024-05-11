@@ -45,7 +45,7 @@
 }
 
 .work__button {
-    color: var(--text-color);
+    color: #e42020;
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -100,6 +100,9 @@
         width: 100%;
     }
 
+    .break-mobile {
+        display: none;
+      }
 
 }
 
@@ -113,4 +116,8 @@
     .work__filters {
         column-gap: 0.25rem;
     }
+
+    .break-mobile {
+        display: none;
+      }
 }

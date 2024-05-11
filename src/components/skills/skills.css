@@ -1,12 +1,13 @@
 .section__title {
     padding-top: 10%;
-
 }
+
 
 .skills__container {
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
+    
 }
 
 .skills__content {
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
+    
 }
 
 .skills__group {

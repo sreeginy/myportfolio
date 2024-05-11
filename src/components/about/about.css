@@ -104,6 +104,11 @@
         padding: 0 5rem; 
         margin-bottom: 2rem;
     }
+
+    .button-container {
+        text-align: center; /* Center align on smaller screens */
+        margin-right: 0; /* Remove right margin */
+      }
 }
 
 @media screen and (max-width: 576px) {
@@ -114,6 +119,9 @@
     .about__description {
         padding: 0;
     }
+    .button-container {
+        margin-right: 0; /* Remove right margin */
+      }
 }
 
 
@@ -121,4 +129,7 @@
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
+    .button-container {
+        margin-right: 0; /* Remove right margin */
+      }
 }

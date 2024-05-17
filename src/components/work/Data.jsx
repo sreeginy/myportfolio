@@ -6,6 +6,7 @@ import Work5 from "../../assets/toDo.png"
 import work6 from "../../assets/AppContact.png"
 import Work7 from "../../assets/constructionWebpage.png"
 import Work8 from "../../assets/constructionAppUI.png"
+import Work9 from "../../assets/CoffeeShopWeb.png"
 
 
 export const projectsData = [ 
@@ -55,7 +56,7 @@ export const projectsData = [
         title: 'Contact App',
         category: "app",
     },
-    
+
     {
         id: 2,
         image: Work2,
@@ -64,13 +65,22 @@ export const projectsData = [
         description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
     },
 
+        
+    {
+        id: 9,
+        image: Work9,
+        title: 'Coffee Shop | FrontEnd | React JS',
+        category: "web",
+        description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
+    },
+
+    
     {
         id: 3,
         image: Work3,
-        title: 'ToDo App Design |      Figma ',
+        title: 'ToDo App Design |  Figma ',
         category: "design",
     },
-
 
 
 ];

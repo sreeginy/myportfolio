@@ -47,6 +47,13 @@
     margin-top: 2rem; 
     margin-right: 15rem;
   }
+.button__icon1 {
+    color: #fff;
+    margin-left: 9px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    fill: #fff;
+}
   
   .about__description {
     padding: 0 4rem 0 0;

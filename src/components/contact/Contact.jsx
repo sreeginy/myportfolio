@@ -78,7 +78,7 @@ const Contact = () => {
                             <label className="contact__form-tag">Message</label>
                             <textarea name="message" cols="30" rows="10"
                                       className="contact__form-input"
-                                      placeholder="Write your message"></textarea>
+                                      placeholder="Let's talk about"></textarea>
                         </div>
 
                     

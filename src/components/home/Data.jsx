@@ -3,7 +3,7 @@ import './Home.css';
 
 const Data = () => {
   const [jobTitle, setJobTitle] = useState("");
-  const titles = ["Android Developer", "FrontEnd Developer"];
+  const titles = ["Android Developer", "UI/UX Designer"];
   const [titleIndex, setTitleIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 

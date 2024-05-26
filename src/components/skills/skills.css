@@ -2,12 +2,10 @@
     padding-top: 10%;
 }
 
-
 .skills__container {
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
-    
 }
 
 .skills__content {
@@ -15,7 +13,6 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
-
 }
 
 .skills__title {
@@ -29,7 +26,6 @@
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
-    
 }
 
 .skills__group {
@@ -58,6 +54,11 @@
     font-size: 12px;
 }
 
+.icon-wrapper {
+    color: #f504dd;
+    font-size: 1.5rem;
+}
+
 /* Breakpoints */
 @media screen and (max-width: 992px) {
     .skills__container {
@@ -65,11 +66,11 @@
         row-gap: 2rem;
     }
 }
-  
+
 @media screen and (max-width: 768px) {
     /* Add styles here if necessary */
 }
-  
+
 @media screen and (max-width: 576px) {
     .skills__container {
         grid-template-columns: 1fr;
@@ -79,8 +80,7 @@
         padding: 1.5rem;
     }
 }
-  
-/* For small devices */
+
 @media screen and (max-width: 350px) {
     .skills__box {
         column-gap: 1.25rem;
@@ -90,6 +90,3 @@
         font-size: var(--small-font-size);
     }
 }
-
-
-

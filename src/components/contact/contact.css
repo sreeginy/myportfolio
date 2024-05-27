@@ -199,10 +199,16 @@
     .contact__form{
         width: 100%;
     }
+    .break-mobile {
+        display: none;
+      }
   }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .break-mobile {
+        display: none;
+      }
 
   }
   

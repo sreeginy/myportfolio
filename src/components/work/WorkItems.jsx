@@ -28,15 +28,19 @@ const WorkItems = ({ item }) => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop user interface</p>
+                  <p className="services__modal-info">I design and create user interface. </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create UX element interactions</p>
+                  <p className="services__modal-info">I integrate APIs for seamless functionality.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info"> I design and create mockups of products.</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">I manage end-to-end project development..</p>
                 </li>
               </ul>
             </div>

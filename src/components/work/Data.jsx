@@ -17,15 +17,17 @@ export const projectsData = [
         image: Work8,
         title: 'Building Construction App',
         category: "app",
+        description: "Final Year Individual Project: Developed a comprehensive E-Commerce Application for the construction industry, facilitating project management, materials, and services. The project includes both a mobile app & a web platform. Technologies: React JS | Java | MySQL | Retrofit API | Android SDK",
+        imageLink: "https://bitbucket.org/sreeginy_kodeeswran/construction-mobileui/src/master/",
     },
 
     {
         id: 1,
         image: Work1,
-        title: 'Weather App',
+        title: 'Weather App ',
         category: "app",
-        description: "This is a weather application that provides real-time weather updates for various locations. It includes features such as temperature, humidity, wind speed, and forecasts.",
-        imageLink: "https://github.com/sreeginy/News-App",
+        description: "This is a weather application that provides real-time weather updates for various locations. It includes features such as temperature, humidity, wind speed, and forecasts. Technologies : Java | Android SDK | OpenWeatherMap API",
+        imageLink: "https://github.com/sreeginy/Weather-App/",
     },
 
     {
@@ -33,6 +35,8 @@ export const projectsData = [
         image: Work7,
         title: 'Building Construction System',
         category: "web",
+        description: "Final Year Individual Project: Developed a comprehensive E-Commerce Application for the construction industry, facilitating project management, materials, and services. The project includes both a mobile app & a web platform. Technologies: React JS | Java | MySQL | Retrofit API | Android SDK",
+        imageLink: "https://github.com/sreeginy/Construction-admin",
     },
 
     {
@@ -40,6 +44,9 @@ export const projectsData = [
         image: Work4,
         title: 'Student Management System',
         category: "web",
+        description: "It's Web Application. I Developed an administrative system for Student Management System to enable efficient management of student records. Technologies : HTML | CSS | JavaScript | Bootstrap | MySQL | PHP | Laravel-8 ",
+        imageLink: "https://github.com/sreeginy/Student-Management-System",
+        
     },
 
     {
@@ -48,8 +55,6 @@ export const projectsData = [
         title: 'ToDo App',
         category: "app",
     },
-
-
 
     {
         id: 6,
@@ -89,6 +94,7 @@ export const projectsData = [
         image: Work3,
         title: 'ToDo App Design |  Figma ',
         category: "design",
+
     },
 
 

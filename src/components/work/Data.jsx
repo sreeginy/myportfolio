@@ -1,5 +1,5 @@
 import Work1 from "../../assets/weatherApp02.png"
-import Work2 from "../../assets/puzzleApp.png"
+import Work2 from "../../assets/figmaDesignn.png"
 import Work3 from "../../assets/figmaDesign.png"
 import Work4 from "../../assets/studentsWebpage.png"
 import Work5 from "../../assets/toDo.png"
@@ -7,6 +7,7 @@ import work6 from "../../assets/AppContact.png"
 import Work7 from "../../assets/constructionWebpage.png"
 import Work8 from "../../assets/constructionAppUI.png"
 import Work9 from "../../assets/CoffeeShopWeb.png"
+import Work10 from "../../assets/TheNoteApp.png"
 
 
 export const projectsData = [ 
@@ -65,7 +66,13 @@ export const projectsData = [
         description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
     },
 
-        
+    {
+        id: 10,
+        image: Work10,
+        title: 'The Notes App  |  Kotlin ',
+        category: "app",
+    },
+
     {
         id: 9,
         image: Work9,
@@ -73,6 +80,8 @@ export const projectsData = [
         category: "web",
         description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
     },
+
+
 
     
     {

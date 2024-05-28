@@ -3,7 +3,10 @@ import './services.css';
 import Image1 from "../../assets/Coursera.png";
 import Image2 from "../../assets/WebDesign.png";
 import Image3 from "../../assets/gitHub.png";
-import Image4 from "../../assets/webDevelop.jpg";
+import Image4 from "../../assets/reactjs.jpg";
+import Image5 from "../../assets/Coursera_UI.jpg";
+import Image6 from "../../assets/AppDevelopemnt.jpg";
+
 
 
 
@@ -19,6 +22,15 @@ const Services = () => {
 
             <div className="services__container container grid">
             
+
+            <div className="services__content">
+                    <div>
+                    <img src={Image5} alt="" />
+                        <h3 className="services__title">Build Dynamic User Interfaces (UI) for Websites</h3>
+                    </div>
+
+                </div>
+
                 <div className="services__content">
                     <div>
                     <img src={Image1} alt="" />
@@ -26,6 +38,25 @@ const Services = () => {
                     </div>
 
                 </div>
+
+
+                <div className="services__content">
+                    <div>
+                    <img src={Image6} alt="" />
+                        <h3 className="services__title">Android Application Developement</h3>
+                    </div>
+
+                </div>
+
+
+                <div className="services__content">
+                    <div>
+                    <img src={Image2} alt="" style={{ marginTop: '7px'}} />
+                        <h3 className="services__title">Web Design for Beginners</h3>
+                    </div>
+
+                </div>
+
 
 
                 <div className="services__content">
@@ -40,16 +71,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                     <img src={Image4} alt="" />
-                        <h3 className="services__title">Front End Web Development</h3>
-                    </div>
-
-                </div>
-
-
-                <div className="services__content">
-                    <div>
-                    <img src={Image2} alt="" style={{ marginTop: '7px'}} />
-                        <h3 className="services__title">Web Design for Beginners</h3>
+                        <h3 className="services__title">JavaScript & React.Js from A to Z </h3>
                     </div>
 
                 </div>

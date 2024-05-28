@@ -54,6 +54,8 @@ export const projectsData = [
         image: Work5,
         title: 'ToDo App',
         category: "app",
+        description: "It's Web Application. I Developed an administrative system for Student Management System to enable efficient management of student records. Technologies : HTML | CSS | JavaScript | Bootstrap | MySQL | PHP | Laravel-8 ",
+        imageLink: "https://github.com/sreeginy/Student-Management-System",
     },
 
     {

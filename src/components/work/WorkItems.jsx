@@ -28,19 +28,23 @@ const WorkItems = ({ item }) => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create and design user interface. </p>
+                  <p className="services__modal-info">Identified project objectives and requirements.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I integrate APIs for seamless functionality.</p>
+                  <p className="services__modal-info">Created detailed project plans and schedules.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info"> I developed and create mockups of products.</p>
+                  <p className="services__modal-info">Implemented project plans, designing UI to specs.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I manage end-to-end project development..</p>
+                  <p className="services__modal-info">Managed risks, issues while adjusting plans. </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Oversee project development to documentation.</p>
                 </li>
               </ul>
             </div>

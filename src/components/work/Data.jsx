@@ -1,6 +1,6 @@
 import Work1 from "../../assets/weatherApp02.png"
 import Work2 from "../../assets/figmaDesignn.png"
-import Work3 from "../../assets/figmaDesign.png"
+import Work3 from "../../assets/FigmaDesign02.png"
 import Work4 from "../../assets/studentsWebpage.png"
 import Work5 from "../../assets/toDo.png"
 import work6 from "../../assets/AppContact.png"
@@ -54,8 +54,8 @@ export const projectsData = [
         image: Work5,
         title: 'ToDo App',
         category: "app",
-        description: "It's Web Application. I Developed an administrative system for Student Management System to enable efficient management of student records. Technologies : HTML | CSS | JavaScript | Bootstrap | MySQL | PHP | Laravel-8 ",
-        imageLink: "https://github.com/sreeginy/Student-Management-System",
+        description: "The To-Do List app is a powerful tool designed to help users efficiently organize their daily tasks and manage their responsibilities. The app allows users to add, edit, and delete tasks.  Technologies : Java | Android SDK | SQLite database ",
+        imageLink: "https://github.com/sreeginy/ToDo-List/",
     },
 
     {
@@ -63,6 +63,8 @@ export const projectsData = [
         image: work6,
         title: 'Contact App',
         category: "app",
+        description: "The Contact App is an Android native contact management system where users can create contacts with a picture, first name, last name, phone number, and email. Users can view, search, edit, and delete contacts. Technologies : Java | Android SDK | SQLite database ",
+        imageLink: "https://github.com/sreeginy/Contact-Buddy",
     },
 
     {
@@ -70,7 +72,8 @@ export const projectsData = [
         image: Work2,
         title: 'PHOTO PUZZLE APP  |  2020',
         category: "app",
-        description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
+        description: "I developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
+        imageLink: "https://github.com/sreeginy/King-Puzzle"
     },
 
     {
@@ -78,6 +81,8 @@ export const projectsData = [
         image: Work10,
         title: 'The Notes App  |  Kotlin ',
         category: "app",
+        description: "The Notes App is a simple, material design note-taking application built with Kotlin. Users can quickly take, manage, and organize notes. The app allows adding, editing, and deleting notes, and supports searching through stored notes.  Technologies: Kotlin | Android SDK | Room Database (SQLite) ",
+        imageLink: "https://github.com/sreeginy/Notes-App",
     },
 
     {
@@ -85,17 +90,19 @@ export const projectsData = [
         image: Work9,
         title: 'Coffee Shop | FrontEnd | React JS',
         category: "web",
-        description: "Scope : Developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
+        description: "I Developed a responsive website for a Coffee Shop using React JS. Integrated a cohesive layout with a header, footer, landing page, and contact page. Ensured the website is fully responsive across various devices and screen sizes. Technologies: React JS | FrontEnd | Responsive Design ", 
+        imageLink: "https://github.com/sreeginy/FrontEnd-Development-Task01",
     },
 
 
 
-    
     {
         id: 3,
         image: Work3,
         title: 'ToDo App Design |  Figma ',
         category: "design",
+        description: "I Designed a comprehensive mobile app in Figma for managing tasks. Features include a Splash Screen, Login, Register, three Onboarding screens, Profile setup (choose avatar), Username input, and a Dashboard for creating, editing, and deleting tasks. Technologies: Figma | UI/UX Design ",
+        imageLink: "https://youtu.be/W7h9n7Pr-5Y?si=-DRC58VQieVlikvf",
 
     },
 

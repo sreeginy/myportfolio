@@ -10,8 +10,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_570b6zf', 'template_rlpiqve', form.current, {
-                publicKey: '8tG1D_ADDSoD-Q2IE',
+            .sendForm('service_09ap38c', 'template_28cek2f', form.current, {
+                publicKey: '979-dhiuQK91dMkMb',
             })
             .then(
                 () => {
@@ -30,7 +30,8 @@ const Contact = () => {
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Contact</h2>
-            <span className="section__subtitle">Feel free to reach out to me for any questions, <br className="break-mobile" /> inquiries, or opportunities!</span>
+            <span className="section__subtitle">Feel free to reach out to me for any questions, inquiries, or opportunities! </span>
+             {/* <br className="break-mobile" /> */}
 
             <div className="contacts__data" >
 

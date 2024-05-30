@@ -20,7 +20,7 @@ const Social = () => {
     <i className="uil uil-github-alt"> </i>
 </a>
 
-<a href="" className="home__social-icon" target="_blank">
+<a href="https://dribbble.com/sreeginy" className="home__social-icon" target="_blank">
     <CIcon icon={cibDribbble} className="social-icon" />
 </a>
 
@@ -28,7 +28,7 @@ const Social = () => {
     <CIcon icon={cibBehance} className="social-icon" />
 </a>
 
-<a href="" className="home__social-icon" target="_blank">
+<a href="https://www.notion.so/Design-Portfolio-9f73de373f0d42489c9bd730c446bcec?pvs=4" className="home__social-icon" target="_blank">
     <CIcon icon={cibNotion} className="social-icon" style={{ color: '#FF0000' }} />
 </a>
 

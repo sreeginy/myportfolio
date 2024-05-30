@@ -26,6 +26,7 @@
     font-size: 2rem;
     color: var(--tittle-color-dark); /* Corrected from tittle-color to title-color */
     transition: color 0.3s ease; 
+    transform: scale(1.1); 
 }
 
 .home__social-icon:hover {
@@ -40,6 +41,7 @@
 .home__social-icon:hover .social-icon {
     color: #0000CD; 
     transform: scale(1.1); 
+    
 }
 
 

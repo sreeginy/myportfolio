@@ -1,12 +1,12 @@
 import Work1 from "../../assets/weatherApp02.png"
-import Work2 from "../../assets/figmaDesignn.png"
+import Work2 from "../../assets/puzzleApp.png"
 import Work3 from "../../assets/FigmaDesign02.png"
 import Work4 from "../../assets/studentsWebpage.png"
 import Work5 from "../../assets/toDo.png"
 import work6 from "../../assets/AppContact.png"
 import Work7 from "../../assets/constructionWebpage.png"
 import Work8 from "../../assets/constructionAppUI.png"
-import Work9 from "../../assets/CoffeeShopWeb.png"
+import Work9 from "../../assets/frontend.png"
 import Work10 from "../../assets/TheNoteApp.png"
 
 

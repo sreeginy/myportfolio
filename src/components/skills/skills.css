@@ -79,6 +79,10 @@
     .skills__content {
         padding: 1.5rem;
     }
+    .section__subtitle .break-mobile {
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 350px) {
@@ -88,5 +92,9 @@
 
     .skills__name {
         font-size: var(--small-font-size);
+    }
+    
+    .section__subtitle .break-mobile {
+        display: none;
     }
 }

@@ -35,7 +35,7 @@ export const projectsData = [
         image: Work7,
         title: 'Building Construction System',
         category: "web",
-        description: "Final Year Individual Project: Developed a comprehensive E-Commerce Application for the construction industry, facilitating project management, materials, and services. The project includes both a mobile app & a web platform. Technologies: React JS | Java | MySQL | Retrofit API | Android SDK",
+        description: "Final Year Individual Project:  I Developed an administrative system for E-Commerce Application in the construction industry, facilitating project management, materials, and services. The project includes both a mobile app & a web platform. Technologies: React JS | Java | MySQL | Retrofit API | Android SDK",
         imageLink: "https://github.com/sreeginy/Construction-admin",
     },
 

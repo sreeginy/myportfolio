@@ -7,7 +7,7 @@ import { faFileCode } from '@fortawesome/free-regular-svg-icons';
 const Backend = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Backend Developer</h3>
+            <h3 className="skills__title">Backend Development</h3>
 
             <div className="skills__box">
                 <div className="skills__group">

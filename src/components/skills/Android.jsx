@@ -6,7 +6,7 @@ import { faAndroid } from '@fortawesome/free-brands-svg-icons';
 const Android = () => {
     return (
         <div className="skills__content">
-            <h3 className="h3 skills__title">Android Developer</h3>
+            <h3 className="h3 skills__title">Android Development</h3>
 
             <div className="skills__box">
                 <div className="skills__group">

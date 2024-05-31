@@ -6,7 +6,7 @@ import { faSketch } from '@fortawesome/free-brands-svg-icons';
 const Others = () => {
     return (
         <div className="skills__content">
-        <h3 className="h3 skills__title">UI/UX Designer</h3>
+        <h3 className="h3 skills__title">UI/UX Design</h3>
 
         <div className="skills__box"> 
             <div className="skills__group">

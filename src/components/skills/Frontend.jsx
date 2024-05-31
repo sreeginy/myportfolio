@@ -4,7 +4,7 @@ import React from "react";
 const Frontend = () => {
     return (
         <div className="skills__content">
-            <h3 className="h3 skills__title">Frontend Developer </h3>
+            <h3 className="h3 skills__title">Frontend Development </h3>
 
             <div className="skills__box"> 
                 <div className="skills__group">

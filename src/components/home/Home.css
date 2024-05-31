@@ -320,7 +320,7 @@
         width: 250px;
         height: 250px;
         box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
-        margin-left: 10.5%;
+        margin-left: 3.3%;
     }
 
     .home__scroll {
@@ -377,6 +377,7 @@
           width: 150px; 
           height: 150px;
           box-shadow: inset 0 0 0 4px rgb(255 255 255 / 30%); 
+          margin-left: 3.3%;
         }
       
         .button-container {

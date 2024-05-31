@@ -19,12 +19,9 @@
 }
 
 
-
-
-/* Common styles for all social icons */
 .home__social-icon {
     font-size: 2rem;
-    color: var(--tittle-color-dark); /* Corrected from tittle-color to title-color */
+    color: var(--tittle-color-dark);
     transition: color 0.3s ease; 
     transform: scale(1.1); 
 }
@@ -43,9 +40,6 @@
     transform: scale(1.1); 
     
 }
-
-
-
 
 
 .home__title {

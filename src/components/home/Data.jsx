@@ -11,7 +11,7 @@ const Data = () => {
     const interval = setInterval(() => {
       setTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
       setIsTyping(true);
-    }, 3000);
+    }, 5000); // Changed to 5000ms for better readability
     return () => clearInterval(interval);
   }, []);
 
@@ -43,7 +43,7 @@ const Data = () => {
         I'm a creative Designer based in Sri Lanka, and I'm very passionate and dedicated to my work.
       </p>
       <div className="button-container">
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="button">
           Say Hello
           <svg
             className="button__icon"

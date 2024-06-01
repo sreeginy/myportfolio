@@ -41,7 +41,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Kingston University</span>
                                 <div className="qualification__calender">
                                 <i class='bx bx-calendar' > Graduated in September 2023</i>
-                                {/* <span className="qualification__subtitle">September 2022 to September 2023</span> */}
+                           
                                  
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Advanced Technological Institute - Jaffna</span>
                                 <div className="qualification__calender">
                                 <i class='bx bx-calendar' > Graduated in February 2022</i>
-                                {/* <span className="qualification__subtitle">May 2018 to February 2022</span> */}
+                              
                                 </div>
                             </div>
 
@@ -81,7 +81,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Thondaimanaru V.M.V - Jaffna</span>
                                 <div className="qualification__calender">
                                 <i class='bx bx-calendar' > Graduated in December 2017</i>
-                                {/* <span className="qualification__subtitle">January 2004 to December 2017</span> */}
+                          
                                 </div>
                             </div>
 
@@ -122,12 +122,11 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div>
                             <h3 className="qualification__title">Creative Media Coordinator | <br /> Part Time </h3>
-                            {/*  Digital Media Coordinator  | Brand Ambassador */}
+                         
                                 <span className="qualification__subtitle"> RK Architecture Designers & Engineers </span>
                                 <div className="qualification__calender">
                                 <i class='bx bx-calendar'> November 2022 <br />to Present </i>
-                                {/* <span className="qualification__period"> November 2022 to Present </span> */}
-                                </div>
+                           
                             </div>
 
                             <div>
@@ -135,27 +134,6 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>
-
-{/* 
-                        <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                            <h3 className="qualification__title"> Android App Developer</h3>
-                                <span className="qualification__subtitle"> Tech-A-Intern</span>
-                                <div className="qualification__calender">
-                                <i class='bx bx-calendar'> December 2023 <br />to January 2024 </i>
-                                {/* <span className="qualification__period"> November 2020 to May 2021 </span> */}
-                                {/* </div>
-                            </div>
-
-
-                        </div> */}
 
 
 
@@ -173,7 +151,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle"> My Dynamica (Pvt)Ltd  - Jaffna</span>
                                 <div className="qualification__calender">
                                 <i class='bx bx-calendar'> November 2020 <br />to May 2021 </i>
-                                {/* <span className="qualification__period"> November 2020 to May 2021 </span> */}
+       
                                 </div>
                             </div>
 
@@ -194,6 +172,7 @@ const Qualification = () => {
                     
                 </div>
 
+            </div>
             </div>
 
         </section>

@@ -10,13 +10,6 @@ const Others = () => {
 
         <div className="skills__box"> 
             <div className="skills__group">
-                {/* <div className="skills__data">
-                <i class='bx bxl-visual-studio' style= {{ color: '#0078d7', fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1rem'}}  ></i>
-
-                    <div>
-                        <h3 className="skills__name">VS Code</h3>
-                    </div>
-            </div> */}
 
             <div className="skills__data">
             <FontAwesomeIcon icon={faFigma} style={{ color: "#1a5b9c" , fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1.5rem'}} />

@@ -22,12 +22,6 @@
   max-width: 100%;
 }
 
-/* .services__content {
-    position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--container-color);
-
-} */
 
 .services__title {
     font-size: var(--h3-font-size);

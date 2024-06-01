@@ -13,7 +13,7 @@ const Android = () => {
               
                     <div className="skills__data">
                     <FontAwesomeIcon icon={faJava} style={{ color: "#5382a1", fontSize: '2.1rem', marginLeft: '1rem', marginRight: '1.5rem' }} />
-                        {/* <i className='bx bxl-java' style={{ color: '#5382a1', fontSize: '3rem', marginRight: '1rem' }}></i> */}
+                   
                         <h3 className="skills__name">Java</h3>
                     </div>
 
@@ -58,7 +58,7 @@ const Android = () => {
 
                     <div className="skills__data">
                     <FontAwesomeIcon icon={faAndroid} style={{ color: "#77c159", fontSize: '2.1rem', marginLeft: '1rem', marginRight: '0.8rem' }} />
-                        {/* <i className='bx bxl-android' style={{ color: '#77c159', fontSize: '3rem', marginRight: '1rem' }}></i> */}
+                     
                         <h3 className="skills__name">Android Studio</h3>
                     </div>
 

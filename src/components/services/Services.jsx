@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './services.css';
 import Image1 from "../../assets/Coursera.png";
 import Image2 from "../../assets/WebDesign.png";
@@ -6,9 +6,6 @@ import Image3 from "../../assets/gitHub.png";
 import Image4 from "../../assets/reactjs.jpg";
 import Image5 from "../../assets/Coursera_UI.jpg";
 import Image6 from "../../assets/AppDevelopemnt.jpg";
-
-
-
 
 
 

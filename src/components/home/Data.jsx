@@ -11,7 +11,7 @@ const Data = () => {
     const interval = setInterval(() => {
       setTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
       setIsTyping(true);
-    }, 5000); // Changed to 5000ms for better readability
+    }, 5000); 
     return () => clearInterval(interval);
   }, []);
 

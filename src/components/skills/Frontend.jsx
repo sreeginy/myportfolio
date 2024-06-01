@@ -63,14 +63,6 @@ const Frontend = () => {
                         </div>
                 </div>
 
-                {/* <div className="skills__data">
-                <i class='bx bxl-angular' style={{ color:'#a6120d', fontSize: '1.5rem' }}  ></i>
-
-                        <div>
-                            <h3 className="skills__name">Angular</h3>
-                        </div>
-                </div> */}
-
             </div>
             </div>
 

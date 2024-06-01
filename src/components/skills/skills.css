@@ -72,6 +72,8 @@
 }
 
 @media screen and (max-width: 576px) {
+
+
     .skills__container {
         grid-template-columns: 1fr;
     }
@@ -79,9 +81,9 @@
     .skills__content {
         padding: 1.5rem;
     }
-    .section__subtitle .break-mobile {
+    .break-mobile {
         display: none;
-    }
+      }
     
 }
 
@@ -94,7 +96,7 @@
         font-size: var(--small-font-size);
     }
     
-    .section__subtitle .break-mobile {
+    .break-mobile {
         display: none;
-    }
+      }
 }

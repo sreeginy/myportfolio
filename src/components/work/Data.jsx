@@ -70,7 +70,7 @@ export const projectsData = [
     {
         id: 2,
         image: Work2,
-        title: 'PHOTO PUZZLE APP  |  2020',
+        title: 'PHOTO PUZZLE APP  ',
         category: "app",
         description: "I developed a mini app to create a jigsaw-based puzzle game, providing an engaging experience for users to solve puzzles using images. Technologies : Android SDK | Java | SQLite",
         imageLink: "https://github.com/sreeginy/King-Puzzle"

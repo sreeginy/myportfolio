@@ -1,76 +1,72 @@
 .services__title {
   padding-top: 3%;
-
 }
+
 .services__container {
-    grid-template-columns: repeat(2, 400px);
-    justify-content: center;
-    column-gap: 1.8rem;
-    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  justify-content: center;
+  column-gap: 1.8rem;
+  margin-top: 2rem;
 }
 
 .services__icon {
-    display: block;
-    font-size: 2rem;
-    color: var(--title-color);
-    margin-bottom: var(--mb-1);
+  display: block;
+  font-size: 2rem;
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
 }
 
 .services__content img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
   max-width: 100%;
 }
 
-
 .services__title {
-    font-size: var(--h3-font-size);
-    margin-bottom: 0.8rem;
-    font-weight: var(--font-medium);
-    text-align: center;
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.8rem;
+  font-weight: var(--font-medium);
+  text-align: center;
 }
-
-
-
 
 /* Breakpoints */
 @media screen and (max-width: 992px) {
   .services__container {
-    grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); 
+      grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); 
   }
 }
 
 @media screen and (max-width: 768px) {
   .services__container {
-    grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
   }
 
   .services__content {
-    padding: 1.5rem 0.5rem 1rem 1.5rem;
+      padding: 1.5rem 0.5rem 1rem 1.2rem;
   }
 
   .services__icon {
-    font-size: 1.5rem;
+      font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .services__container {
-    grid-template-columns: repeat(1, 1fr); 
+      grid-template-columns: repeat(1, 1fr); 
   }
 
   .services__content {
-    padding: 1.5rem 0.5rem 1rem 1.5rem;
+      padding: 1.5rem 0.5rem 1rem 1rem;
   }
 }
 
-/* For small devices */
 @media screen and (max-width: 350px) {
   .services__container {
-    grid-template-columns: max-content;
+      grid-template-columns: 1fr;
   }
 
   .services__content {
-    padding-right: 6rem;
+      padding-right: 5.5rem;
   }
 }

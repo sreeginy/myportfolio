@@ -40,7 +40,7 @@ const Data = () => {
         I am a <span className="highlight">{isTyping ? jobTitle : titles[titleIndex]}</span>
       </h2>
       <p className="home__description">
-      I'm a creative designer based in Sri Lanka, deeply passionate & dedicated to my work.
+      I'm a creative designer based in Sri Lanka, <br className="break-mobile" /> deeply passionate & dedicated to my work.
       </p>
       <div className="button-container">
         <a href="#contact" className="button">

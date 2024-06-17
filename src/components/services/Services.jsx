@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <section className="services section" id="services">
             <h2 className="section__title">Achievements</h2>
-            <span className="section__subtitle">These are all the achievements earned by me!</span>
+            <span className="section__subtitle">Here are all the achievements I have earned!</span>
 
             <div className="services__container container grid">
                 <div className="services__content">

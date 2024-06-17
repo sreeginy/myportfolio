@@ -15,13 +15,11 @@ const About = () => {
 
                 <div className="about__data ">
                 <p className="about__subtitle">Get to Know Me..! </p>
-                    <p className="about__description">I'm a Mobile Developer and UI/UX Designer, with creating user-friendly mobile apps.
-                      I also have experience as a Frontend Developer.
-                      <br /> <br />
-                     I'm always ready for new challenges, passionate about learning, 
-                     and dedicated to delivering excellent results with a positive attitude and growth mindset, 
-                     ready to achieve great things!.
-
+                    <p className="about__description"> I am a Mobile Developer and UI/UX Designer, specializing in creating user-friendly mobile apps. 
+                    I also have experience as a Frontend Developer.
+                    <br /> <br />
+                    I am always ready for new challenges, passionate about learning, 
+                    and dedicated to delivering excellent results with a positive attitude and a growth mindset!
                     </p>
 
                     <div className="button-container">

@@ -8,6 +8,7 @@ import Work7 from "../../assets/constructionWebpage.png"
 import Work8 from "../../assets/constructionAppUI.png"
 import Work9 from "../../assets/frontend.png"
 import Work10 from "../../assets/TheNoteApp.png"
+import Work11 from "../../assets/figmaDesignLaundry.png"
 
 
 export const projectsData = [ 
@@ -85,14 +86,14 @@ export const projectsData = [
         imageLink: "https://github.com/sreeginy/Notes-App",
     },
 
-    {
-        id: 9,
-        image: Work9,
-        title: 'Coffee Shop | FrontEnd | React JS',
-        category: "web",
-        description: "I Developed a responsive website for a Coffee Shop using React JS. Integrated a cohesive layout with a header, footer, landing page, and contact page. Ensured the website is fully responsive across various devices and screen sizes. Technologies: React JS | FrontEnd | Responsive Design ", 
-        imageLink: "https://github.com/sreeginy/FrontEnd-Development-Task01",
-    },
+    // {
+    //     id: 9,
+    //     image: Work9,
+    //     title: 'Coffee Shop | FrontEnd | React JS',
+    //     category: "web",
+    //     description: "I Developed a responsive website for a Coffee Shop using React JS. Integrated a cohesive layout with a header, footer, landing page, and contact page. Ensured the website is fully responsive across various devices and screen sizes. Technologies: React JS | FrontEnd | Responsive Design ", 
+    //     imageLink: "https://github.com/sreeginy/FrontEnd-Development-Task01",
+    // },
 
 
 
@@ -103,6 +104,16 @@ export const projectsData = [
         category: "design",
         description: "I Designed a comprehensive mobile app in Figma for managing tasks. Features include a Splash Screen, Login, Register, three Onboarding screens, Profile setup (choose avatar), Username input, and a Dashboard for creating, editing, and deleting tasks. Technologies: Figma | UI/UX Design ",
         imageLink: "https://youtu.be/W7h9n7Pr-5Y?si=-DRC58VQieVlikvf",
+
+    },
+
+    {
+        id: 11,
+        image: Work11,
+        title: 'Laundry Service Design |  Figma ',
+        category: "design",
+        description: "I designed a comprehensive mobile app in Figma for a laundry service. Features include a Home page, Service page, Pricing page, Booking page, SignUp & SignIn page. Technologies: Figma | UI/UX Design ",
+        imageLink: "https://www.figma.com/design/In42XtvhiVGbZmC5Lkedv2/Laundry-Service?node-id=0-1&t=JaMASRaHbUB6i36F-1",
 
     },
 

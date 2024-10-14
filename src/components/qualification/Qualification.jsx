@@ -90,7 +90,7 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Web Developer  React JS | Full Time</h3>
+                                <h3 className="qualification__title">Web Developer  React JS | Part Time</h3>
                                 <span className="qualification__subtitle">Ashnet BPO Service (Pvt) Ltd - Colombo</span>
                                 <div className="qualification__calendar">
                                     <i className='bx bx-calendar'></i> May 2024 to Present

@@ -103,7 +103,7 @@ const Qualification = () => {
                         </div>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Creative Media Coordinator | Graphic Designer - Part Time</h3>
+                                <h3 className="qualification__title">Creative Media Coordinator | 3D Designer - Part Time</h3>
                                 <span className="qualification__subtitle">RK Architecture Designers & Engineers</span>
                                 <div className="qualification__calendar">
                                     <i className='bx bx-calendar'></i> October 2023 to Present

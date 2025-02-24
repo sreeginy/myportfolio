@@ -90,8 +90,8 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Web Developer  React JS | Part Time</h3>
-                                <span className="qualification__subtitle">Ashnet BPO Service (Pvt) Ltd - Colombo</span>
+                                <h3 className="qualification__title">UI/UX Designer | Freelance</h3>
+                                <span className="qualification__subtitle">Ashnet BPO Service (Pvt) Ltd</span>
                                 <div className="qualification__calendar">
                                     <i className='bx bx-calendar'></i> May 2024 to Present
                                 </div>
@@ -103,8 +103,8 @@ const Qualification = () => {
                         </div>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">UI/UX Designer</h3>
-                                <span className="qualification__subtitle">Freelance</span>
+                                <h3 className="qualification__title">Creative Media Coordinator | Graphic Designer - Part Time</h3>
+                                <span className="qualification__subtitle">RK Architecture Designers & Engineers</span>
                                 <div className="qualification__calendar">
                                     <i className='bx bx-calendar'></i> October 2023 to Present
                                 </div>

@@ -93,7 +93,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">UI/UX Designer | Freelance</h3>
                                 <span className="qualification__subtitle">Ashnet BPO Service (Pvt) Ltd</span>
                                 <div className="qualification__calendar">
-                                    <i className='bx bx-calendar'></i> May 2024 to Present
+                                    <i className='bx bx-calendar'></i> April 2024 to Present
                                 </div>
                             </div>
                         </div>

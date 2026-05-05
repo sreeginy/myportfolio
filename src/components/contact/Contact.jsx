@@ -38,7 +38,7 @@ const Contact = () => {
             <i class='bx bx-map' style={{ fontSize: '1.5rem', color:'#e42020' }} ></i>
 
             <div>
-                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Location: Jaffna District, Northern Province, SriLanka</h3>
+                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Location: </span>  Jaffna District, Northern Province, SriLanka</h3>
             </div>
             </div>
 

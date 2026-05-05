@@ -38,7 +38,7 @@ const Contact = () => {
             <i class='bx bx-map' style={{ fontSize: '1.5rem', color:'#e42020' }} ></i>
 
             <div>
-                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Location: </span> Selvasannithy temple, Thondaimanaru, Jaffna.</h3>
+                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Location: Jaffna District, Northern Province, SriLanka</h3>
             </div>
             </div>
 
@@ -48,9 +48,9 @@ const Contact = () => {
             <div>
                  <h3 className="contact__name"><span style={{ color: '#808080'}}> Email: </span> sreeginy98@gmail.com&nbsp;  &nbsp; </h3> 
             </div>
-         <i class='bx bx-phone-call' style={{ fontSize: '1.3rem', color: '#e42020' }}> </i> 
-            <h3 className="contact__name"><span style={{ color: '#808080'}}> Call: </span> +94772949603</h3>
-            </div>
+          <i class='bx bx-phone-call' style={{ fontSize: '1.3rem', color: '#e42020' }}> </i> 
+            <h3 className="contact__name"><span style={{ color: '#808080'}}> Call: </span> +94772902687</h3>
+            </div> 
 
 
 

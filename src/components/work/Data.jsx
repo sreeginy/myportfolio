@@ -86,14 +86,7 @@ export const projectsData = [
         imageLink: "https://github.com/sreeginy/Notes-App",
     },
 
-    // {
-    //     id: 9,
-    //     image: Work9,
-    //     title: 'Coffee Shop | FrontEnd | React JS',
-    //     category: "web",
-    //     description: "I Developed a responsive website for a Coffee Shop using React JS. Integrated a cohesive layout with a header, footer, landing page, and contact page. Ensured the website is fully responsive across various devices and screen sizes. Technologies: React JS | FrontEnd | Responsive Design ", 
-    //     imageLink: "https://github.com/sreeginy/FrontEnd-Development-Task01",
-    // },
+
 
 
 

@@ -46,7 +46,7 @@ const Contact = () => {
             <i class='bx bx-envelope' style={{ fontSize: '1.3rem', color: '#e42020'}}> </i> 
 
             <div>
-                 <h3 className="contact__name"><span style={{ color: '#808080'}}> Email: </span> sreeginy98@gmail.com&nbsp;  &nbsp; </h3> 
+                 <h3 className="contact__name"><span style={{ color: '#808080'}}> E-mail: </span> sreeginy98@gmail.com&nbsp;  &nbsp; </h3> 
             </div>
           <i class='bx bx-phone-call' style={{ fontSize: '1.3rem', color: '#e42020' }}> </i> 
             <h3 className="contact__name"><span style={{ color: '#808080'}}> Call: </span> +94772902687</h3>

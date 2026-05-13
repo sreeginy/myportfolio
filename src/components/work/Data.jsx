@@ -110,6 +110,7 @@ export const projectsData = [
 
     },
 
+    
 
 ];
 

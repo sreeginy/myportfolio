@@ -23,15 +23,15 @@ const Footer = () => {
 
             <div className="footer__social">
 
-            <a href="https://github.com/sreeginy" className="footer__social-link" target="_blank">
+            <a href="https://github.com/sreeginy" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-github"> </i>
             </a>
 
-            <a href="https://www.facebook.com/giny.sree/" className="footer__social-link" target="_blank">
+            <a href="https://www.facebook.com/giny.sree/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-facebook"></i>
             </a>
 
-            <a href="https://www.instagram.com/giny_jos/?utm_source=qr" className="footer__social-link" target="_blank">
+            <a href="https://www.instagram.com/giny_jos/?utm_source=qr" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"> </i>
             </a>
 

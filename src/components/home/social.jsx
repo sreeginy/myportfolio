@@ -5,7 +5,7 @@ import { cibYoutube } from '@coreui/icons';
 import { cibBehance } from '@coreui/icons';
 import { cibDribbble } from '@coreui/icons';
 import { cibLinkedinIn } from '@coreui/icons';
-import { cibGithub } from '@coreui/icons';
+// import { cibGithub } from '@coreui/icons';
 
 
 const Social = () => {

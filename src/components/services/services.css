@@ -1,72 +1,129 @@
-.services__title {
-  padding-top: 3%;
-}
-
 .services__container {
   display: grid;
   grid-template-columns: repeat(2, 400px);
   justify-content: center;
-  column-gap: 1.8rem;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
-.services__icon {
-  display: block;
-  font-size: 2rem;
-  color: var(--title-color);
-  margin-bottom: var(--mb-1);
+/* =========================
+   CARD CONTAINER
+========================= */
+
+.services__content {
+  --x: 50%;
+  --y: 50%;
+
+  position: relative;
+  border-radius: 20px;
+  padding: 2px;
+  overflow: hidden;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.35s ease;
 }
 
-.services__content img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
+.services__content:hover {
+  transform: translateY(-8px);
 }
+
+/* =========================
+   GLOWING BORDER
+========================= */
+
+.services__content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+
+  background: radial-gradient(
+    220px circle at var(--x) var(--y),
+    #8b5cf6 0%,
+    #3b82f6 25%,
+    #06b6d4 50%,
+    transparent 70%
+  );
+
+  filter: blur(18px);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 0;
+}
+
+.services__content:hover::before {
+  opacity: 1;
+}
+
+/* =========================
+   INNER CARD
+========================= */
+
+.services__card {
+  position: relative;
+  z-index: 1;
+  background: var(--container-color);
+  border-radius: 18px;
+  padding: 18px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Cursor Light Inside */
+
+.services__card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(
+    180px circle at var(--x) var(--y),
+    rgba(255, 255, 255, 0.15),
+    transparent 70%
+  );
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.services__content:hover .services__card::before {
+  opacity: 1;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.services__card img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+/* =========================
+   TITLE
+========================= */
 
 .services__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: 0.8rem;
-  font-weight: var(--font-medium);
+  margin-top: 1rem;
   text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
 }
 
-/* Breakpoints */
+/* =========================
+   RESPONSIVE
+========================= */
+
 @media screen and (max-width: 992px) {
   .services__container {
-      grid-template-columns: repeat(auto-fit, minmax(218px, 1fr)); 
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .services__container {
-      grid-template-columns: repeat(2, 1fr);
-  }
-
-  .services__content {
-      padding: 1.5rem 0.5rem 1rem 1.2rem;
-  }
-
-  .services__icon {
-      font-size: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
 @media screen and (max-width: 576px) {
   .services__container {
-      grid-template-columns: repeat(1, 1fr); 
-  }
-
-  .services__content {
-      padding: 1.5rem 0.5rem 1rem 1rem;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .services__container {
-      grid-template-columns: 1fr;
-  }
-
-  .services__content {
-      padding-right: 5.5rem;
+    grid-template-columns: 1fr;
   }
 }

@@ -6,7 +6,7 @@ import Work5 from "../../assets/toDo.png"
 import work6 from "../../assets/AppContact.png"
 import Work7 from "../../assets/constructionWebpage.png"
 import Work8 from "../../assets/constructionAppUI.png"
-import Work9 from "../../assets/frontend.png"
+
 import Work10 from "../../assets/TheNoteApp.png"
 import Work11 from "../../assets/figmaDesignLaundry.png"
 
